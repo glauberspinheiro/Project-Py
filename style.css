@@ -1,0 +1,14 @@
+.botao{
+    border: solid 1px white;
+    border-radius: 5px;
+    color: white;
+    background-color: darkgrey;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+    width: 250px;
+    font-size: medium;
+}
+.botao:hover{
+    background-color: white;
+    color: green;
+    transform: scale(1.2)
+}
